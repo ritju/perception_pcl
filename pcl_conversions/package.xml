@@ -21,13 +21,13 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <depend>eigen</depend>
-  <depend>libpcl-all-dev</depend>
-  <depend>message_filters</depend>
-  <depend>pcl_msgs</depend>
-  <depend>rclcpp</depend>
-  <depend>sensor_msgs</depend>
-  <depend>std_msgs</depend>
+  <build_export_depend>eigen</build_export_depend>
+  <build_export_depend>libpcl-all-dev</build_export_depend>
+  <build_export_depend>message_filters</build_export_depend>
+  <build_export_depend>pcl_msgs</build_export_depend>
+  <build_export_depend>rclcpp</build_export_depend>
+  <build_export_depend>sensor_msgs</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
 
   <test_depend>ament_cmake_gtest</test_depend>
 
